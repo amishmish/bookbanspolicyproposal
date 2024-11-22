@@ -1,7 +1,55 @@
+@font-face {
+    font-family: heading2;
+    src: url("RantesRegular-9MmK2.ttf");
+}
+
+@font-face {
+    font-family: libBold;
+    src: url("LiberationSans-Bold.ttf")
+}
+
+:root {
+    --color1: #3c552d;
+    --color2: #ca7373;
+    --color3: #d7b26d;
+    --color4: #eee2b5;
+}
+
 .title {
     text-align: center;
     text-decoration: none;
-    margin: 0px;
-    padding: 10px;
-    font-size: 45px;
+    padding: 5px 5px;
+    font-size: 50px;
+    font-family: heading2;
+    font-weight: normal;
+    letter-spacing: 5px;
+    background-color: var(--color1);
+    color: var(--color3);
+}
+
+body {
+    background-color: var(--color4);
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: var(--color2);
+    overflow: hidden;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 20px 20px;
+    float: left;
+    text-align: center;
+    background-color: var(--color2);
+    color: var(--color3);
+    font-family: libBold;
+    font-size: 25px;
+}
+
+.navbar a.active{
+    background-color: var(--color3);
+    color:var(--color1);
 }
