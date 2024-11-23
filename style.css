@@ -30,6 +30,12 @@
     letter-spacing: 5px;
     background-color: var(--color1);
     color: var(--color3);
+    border-bottom:var(--color4);
+    border-bottom-style: solid;
+    border-bottom-width: 6px;
+    border-top:var(--color2);
+    border-top-style: solid;
+    border-top-width: 6px;
 }
 
 body {
@@ -41,6 +47,14 @@ body {
 .navbar {
     background-color: var(--color2);
     overflow: hidden;
+    border-bottom:var(--color1);
+    border-bottom-style: solid;
+    border-bottom-width: 6px;
+}
+
+.navbar a.active{
+    background-color: var(--color3);
+    color:  var(--color4);
 }
 
 .navbar a{
@@ -48,15 +62,19 @@ body {
     padding: 20px 20px;
     float: left;
     text-align: center;
-    background-color: var(--color2);
     color: var(--color3);
-    font-family: libBold;
     font-size: 25px;
+    font-family: heading2;
 }
 
-.navbar a.active{
-    background-color: var(--color3);
-    color:var(--color1);
+.navbar a:link{
+    text-decoration: none;
+    color: var(--color1);
+}
+
+.navbar a:hover {
+    background-color: var(--color4);
+    color: var(--color2)
 }
 
 p {
