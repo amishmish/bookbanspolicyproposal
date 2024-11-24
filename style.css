@@ -51,6 +51,7 @@ body {
     border-bottom:var(--color1);
     border-bottom-style: solid;
     border-bottom-width: 6px;
+    display: flex;
 }
 
 .navbar a.active{
@@ -66,6 +67,10 @@ body {
     color: var(--color3);
     font-size: 25px;
     font-family: heading2;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left:auto;
+    flex-basis: 100%;
 }
 
 .navbar a:link{
