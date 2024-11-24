@@ -18,6 +18,7 @@
     --color2: #ca7373;
     --color3: #d7b26d;
     --color4: #eee2b5;
+    --textcolor: #4b3f24;
 }
 
 .title {
@@ -79,4 +80,24 @@ body {
 
 p {
     font-family: body;
+    color: var(--textcolor);
+}
+
+.parabody {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    background-color:#d7b26d;
+    padding: 5px 15px;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+    border-radius: 10px;
+}
+
+.data {
+    width: 80%;
+}
+
+.ftr {
+    width: 90%;
 }
