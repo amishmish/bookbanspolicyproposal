@@ -115,21 +115,22 @@ img {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .ftr {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .students {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-top: 25px;
+    display: flex;
 }
 
 .video {
@@ -137,7 +138,36 @@ img {
     background-color:var(--color1);
     padding: 20px 20px;
     display: inline;
-    margin-right: 10px;
-    height: 700px;
-    margin-top: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    display: inline;
+    justify-content: center;
+}
+
+.small {
+    width: 30%;
+}
+
+.big {
+    width: 50%;
+}
+
+button {
+    margin: auto;
+    background-color: var(--color4);
+    color: var(--color1);
+    border-radius: 20px;
+    border: solid;
+    border-color: var(--color2);
+    border-width: 5px;  
+    font-family: heading2;
+    font-size: 20px;
+    display: block;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+iframe {
+    margin: auto;
+    display: block;
 }
