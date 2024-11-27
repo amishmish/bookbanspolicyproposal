@@ -159,5 +159,121 @@ function impactOut() {
 }
 
 function proposed() {
+    const bye = document.getElementById("proposeB");
+    const box = document.getElementById("propose");
+    box.removeChild(bye);
 
+    const node = document.createTextNode("In this video, we propose that North Carolina enact a Freedom to Read act, which has been passed in other states. It protects state and local governments from dictating what books are available to the public. Furthermore, we talk about how the law requires libraries to meet a set of anti-censorship guidelines to receive state funding and that bans books from being removed based on the author’s identity.");
+    const sum = document.createElement("p");
+    sum.appendChild(node);
+    sum.setAttribute("class", "parabody student");
+    sum.setAttribute("id", "propBye");
+
+    const button = document.createElement("button");
+    button.setAttribute("onClick", "propout()");
+    button.setAttribute("id", "propByeBut");
+
+    const text = document.createTextNode("Hide");
+    button.appendChild(text);
+
+    box.appendChild(sum);
+    box.appendChild(button);
+}
+
+function propout() {
+    const bye = document.getElementById("propBye");
+    const byebut = document.getElementById("propByeBut");
+    const box = document.getElementById("propose");
+
+    box.removeChild(bye);
+    box.removeChild(byebut);
+
+    const button = document.createElement("button");
+    button.setAttribute("onClick", "proposed()");
+    button.setAttribute("id", "proposeB");
+
+    const text = document.createTextNode("Summary");
+    button.appendChild(text);
+
+    box.appendChild(button);
+}
+
+function conclude() {
+    const bye = document.getElementById("concluB");
+    const box = document.getElementById("conclusion");
+    box.removeChild(bye);
+
+    const node = document.createTextNode("In this video, students talk about the importance of this policy. Amishi talks about how it encourages bringing all voices into schools. Arwen talks about how it brings students to understand topics that are uncomfortable and allows them to experience all the diversity in the world. Suki talks about how it allows students to have access to all information and be empathizing.");
+    const sum = document.createElement("p");
+    sum.appendChild(node);
+    sum.setAttribute("class", "parabody student");
+    sum.setAttribute("id", "concBye");
+
+    const button = document.createElement("button");
+    button.setAttribute("onClick", "concluded()");
+    button.setAttribute("id", "concByeBut");
+
+    const text = document.createTextNode("Hide");
+    button.appendChild(text);
+
+    box.appendChild(sum);
+    box.appendChild(button);
+}
+
+function concluded() {
+    const bye = document.getElementById("concBye");
+    const byebut = document.getElementById("concByeBut");
+    const box = document.getElementById("conclusion");
+
+    box.removeChild(bye);
+    box.removeChild(byebut);
+
+    const button = document.createElement("button");
+    button.setAttribute("onClick", "conclude()");
+    button.setAttribute("id", "concluB");
+
+    const text = document.createTextNode("Summary");
+    button.appendChild(text);
+
+    box.appendChild(button);
+}
+
+function opp() {
+    const bye = document.getElementById("oppB");
+    const box = document.getElementById("oppose");
+    box.removeChild(bye);
+
+    const node = document.createTextNode("In this video, students talk about the opposition and consequences of the Freedom to Read policy. They talk about how opposition will come from groups like Moms for Liberty, and they believe that by doing this they are protecting their children. However, this sort of shielding will only prevent their children from being able to explore the world and perhaps even set them up for failure in the future where they will see the sorts of people they were shielded from. To educate them however, people can have information sessions, and other such programs to help parents feel comfortable. In addition, we should probe at what they feel is good for kids and what is not. Freedom to Read will also increase pressure on librarians. ");
+    const sum = document.createElement("p");
+    sum.appendChild(node);
+    sum.setAttribute("class", "parabody student");
+    sum.setAttribute("id", "oppBye");
+
+    const button = document.createElement("button");
+    button.setAttribute("onClick", "oppmaxx()");
+    button.setAttribute("id", "oppByeBut");
+
+    const text = document.createTextNode("Hide");
+    button.appendChild(text);
+
+    box.appendChild(sum);
+    box.appendChild(button);
+}
+
+function oppmaxx() {
+    const bye = document.getElementById("oppBye");
+    const byebut = document.getElementById("oppByeBut");
+    const box = document.getElementById("oppose");
+
+    box.removeChild(bye);
+    box.removeChild(byebut);
+
+    const button = document.createElement("button");
+    button.setAttribute("onClick", "opp()");
+    button.setAttribute("id", "oppB");
+
+    const text = document.createTextNode("Summary");
+    button.appendChild(text);
+
+    box.appendChild(button);
 }
