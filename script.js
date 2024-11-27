@@ -123,7 +123,7 @@ function impactIn() {
     const box = document.getElementById("impact");
     box.removeChild(bye);
 
-    const node = document.createTextNode("In this discussion, Suki, Arwen, and Amishi talk about the impact that book bans have on education. They discuss how book bans often lead to an incomplete picture of history, with students being ignorant of the experiences of different communities. This leads to poor decisions made based on misinformation and unchecked prejudices and biases, as well as discrimination, exclusion and bullying of students in these ignored groups. Students also will lack empathy that they could have had from reading about other student’s experiences.");
+    const node = document.createTextNode("In this discussion, Suki, Arwen, and Amishi talk about the impact that book bans have on education. They discuss how book bans often lead to an incomplete picture of history, with students being ignorant of the experiences of different communities. This leads to poor decisions made based on misinformation and unchecked prejudices and biases, as well as discrimination, exclusion and bullying of students in these ignored groups. Students also will lack empathy that they could have had from reading about the experiences of other students.");
     const sum = document.createElement("p");
     sum.appendChild(node);
     sum.setAttribute("class", "parabody student");
@@ -156,4 +156,8 @@ function impactOut() {
     button.appendChild(text);
 
     box.appendChild(button);
+}
+
+function proposed() {
+
 }
