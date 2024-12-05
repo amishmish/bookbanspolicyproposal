@@ -288,3 +288,17 @@ h4 {
     border-radius: 10px;
     color: var(--textcolor);
 }
+
+.tedtalk {
+    padding: 8px 8px;
+    font-family: heading2;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    color: var(--textcolor);
+}
+
+a {
+    text-decoration: none;
+}
