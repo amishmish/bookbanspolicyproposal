@@ -275,3 +275,27 @@ h4 {
 .ho {
     background-color: var(--color3);
 }
+
+.bigpara {
+    font-size: 19px;
+    background-color:#d7b26d;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+    border-radius: 10px;
+    color: var(--textcolor);
+}
+
+h2 {
+    font-family: libBold;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 30px;
+    background: #eee2b5;
+    margin:0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
