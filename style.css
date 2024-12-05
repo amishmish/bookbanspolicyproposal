@@ -288,14 +288,3 @@ h4 {
     border-radius: 10px;
     color: var(--textcolor);
 }
-
-h2 {
-    font-family: libBold;
-    text-decoration: none;
-    font-size: 30px;
-    border-radius: 30px;
-    background: #eee2b5;
-    margin:0;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
