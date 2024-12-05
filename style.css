@@ -302,3 +302,11 @@ h4 {
 a {
     text-decoration: none;
 }
+
+.special {
+    margin-top: 30px;
+}
+
+.special a{
+    color: var(--color1);
+}
